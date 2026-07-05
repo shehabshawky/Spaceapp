@@ -1,11 +1,11 @@
 import 'package:spaceapp/models/planet.dart';
 
-List<Planet> planets = [
+final List<Planet> planets = [
   Planet(
     name: "Sun",
     desc:
         "The Sun is the heart of our solar system, a massive ball of plasma that provides heat, light, and energy to everything within its gravitational pull. Its immense size and temperature are fueled by nuclear fusion, a process that combines hydrogen atoms into helium, releasing vast amounts of energy. The Sun's magnetic field, which is constantly changing, influences solar activity like sunspots and solar flares, affecting space weather and potentially disrupting Earth-based technologies.",
-    image: "E:/rout/spaceapp/assets/images/sun.png",
+    image: "assets/images/sun.png",
     image_3D: "",
     title: "The Sun: Our Solar System's Star",
     distance_from_Sun: "0",
@@ -20,7 +20,7 @@ List<Planet> planets = [
     name: "Mercury",
     desc:
         "The Sun is the heart of our solar system, a massive ball of plasma that provides heat, light, and energy to everything within its gravitational pull. Its immense size and temperature are fueled by nuclear fusion, a process that combines hydrogen atoms into helium, releasing vast amounts of energy. The Sun's magnetic field, which is constantly changing, influences solar activity like sunspots and solar flares, affecting space weather and potentially disrupting Earth-based technologies.",
-    image: "E:/rout/spaceapp/assets/images/mercury.png",
+    image: "assets/images/mercury.png",
     image_3D: "",
     title: "Mercury: The Closest Planet",
     distance_from_Sun: "57.909.227",
@@ -35,7 +35,7 @@ List<Planet> planets = [
     name: "Venus",
     desc:
         "Venus is often referred to as Earth's twin due to its similar size and composition. However, its thick atmosphere, composed primarily of carbon dioxide, traps heat, making it the hottest planet in our solar system. This greenhouse effect has created a hostile environment with temperatures hot enough to melt lead. Venus is also shrouded in a thick layer of sulfuric acid clouds, which reflect sunlight and give it a yellowish appearance.",
-    image: "E:/rout/spaceapp/assets/images/venus.png",
+    image: "assets/images/venus.png",
     image_3D: "",
     title: "Venus: Earth's Toxic Twin",
     distance_from_Sun: "108.209.072",
@@ -50,7 +50,7 @@ List<Planet> planets = [
     name: "Earth",
     desc:
         "Earth is the only known planet in the universe that supports life. Its unique combination of factors, including liquid water, a breathable atmosphere, and a suitable distance from the Sun, has created the ideal conditions for the development of complex organisms. Earth's magnetic field protects it from harmful solar radiation, and its atmosphere helps to regulate temperature and weather patterns.",
-    image: "E:/rout/spaceapp/assets/images/earth.png",
+    image: "assets/images/earth.png",
     image_3D: "",
     title: "Earth: Our Blue Marble",
     distance_from_Sun: "149.598.026",
@@ -65,7 +65,7 @@ List<Planet> planets = [
     name: "Mars",
     desc:
         "Mars, often called the Red Planet due to its reddish hue caused by iron oxide, is a cold, rocky world with a thin atmosphere. It has polar ice caps, ancient riverbeds, and evidence of past volcanic activity, suggesting that it once had a warmer, wetter climate. Mars is a prime target for exploration due to its potential for past or present life, and NASA's Perseverance rover is currently searching for signs of ancient microbial life on the planet's surface.",
-    image: "E:/rout/spaceapp/assets/images/mars.png",
+    image: "assets/images/mars.png",
     image_3D: "",
     title: "Mars: The Red Planet",
     distance_from_Sun: "227.943.824",
@@ -80,7 +80,7 @@ List<Planet> planets = [
     name: "Jupiter",
     desc:
         "Jupiter is the largest planet in our solar system, a gas giant composed primarily of hydrogen and helium. Its Great Red Spot, a massive storm that has been raging for centuries, is a testament to its turbulent atmosphere. Jupiter has a strong magnetic field and numerous moons, including Europa, which is believed to have a subsurface ocean that could potentially harbor life.",
-    image: "E:/rout/spaceapp/assets/images/jupiter.png",
+    image: "assets/images/jupiter.png",
     image_3D: "",
     title: "Jupiter: The Gas Giant",
     distance_from_Sun: "778.547.669",
@@ -95,7 +95,7 @@ List<Planet> planets = [
     name: "Saturn",
     desc:
         "Saturn is best known for its spectacular rings, which are composed of countless ice particles and rocks. It is a gas giant with a composition similar to Jupiter, but its rings and moons give it a distinct appearance. Saturn's largest moon, Titan, has a thick atmosphere and is the only known celestial body outside of Earth with liquid lakes and rivers.",
-    image: "E:/rout/spaceapp/assets/images/saturn.png",
+    image: "assets/images/saturn.png",
     image_3D: "",
     title: "Saturn: The Ringed Planet",
     distance_from_Sun: "1.426.666.422",
@@ -110,7 +110,7 @@ List<Planet> planets = [
     name: "Uranus",
     desc:
         "Uranus is an ice giant with a unique axial tilt, causing its seasons to be extreme. It is surrounded by faint rings and has numerous moons, including Miranda, known for its chaotic terrain. Uranus's atmosphere is composed primarily of hydrogen, helium, and methane, giving it a pale blue color.",
-    image: "E:/rout/spaceapp/assets/images/uranus.png",
+    image: "assets/images/uranus.png",
     image_3D: "",
     title: "Uranus: The Tilted Planet",
     distance_from_Sun: "2.870.990.000",
@@ -125,7 +125,7 @@ List<Planet> planets = [
     name: "Neptune",
     desc:
         "Neptune is the farthest planet from the Sun and is another ice giant. Its atmosphere is similar to Uranus, but it is a deeper blue color due to the presence of methane. Neptune has several moons, including Triton, which orbits the planet in a retrograde direction and is believed to be a captured Kuiper Belt object.",
-    image: "E:/rout/spaceapp/assets/images/neptune.png",
+    image: "assets/images/neptune.png",
     image_3D: "",
     title: "Neptune: The Distant World",
     distance_from_Sun: "4.498.252.900",
