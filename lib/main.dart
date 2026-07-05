@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spaceapp/homescreen/home_screen.dart';
-import 'package:spaceapp/planetsscreen/planet_screen.dart';
+import 'package:spaceapp/screens/homescreen/home_screen.dart';
+import 'package:spaceapp/screens/planetsscreen/planet_screen.dart';
 
 void main() {
   runApp(const MyApp());

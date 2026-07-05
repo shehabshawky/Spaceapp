@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spaceapp/commponent/bottom_nav_bar.dart';
 import 'package:spaceapp/core/colors/colors.dart';
-import 'package:spaceapp/planetsscreen/planet_screen.dart';
+import 'package:spaceapp/screens/planetsscreen/planet_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   static final name = "Homescreen";
