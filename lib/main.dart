@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:spaceapp/screens/homescreen/home_screen.dart';
-import 'package:spaceapp/screens/planetsscreen/planet_screen.dart';
+import 'package:spaceapp/screens/home/home_screen.dart';
+import 'package:spaceapp/screens/planetdetalis/planet_detelis_screen.dart';
+import 'package:spaceapp/screens/planets/planet_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.name: (context) => HomeScreen(),
         PlanetScreen.name: (context) => PlanetScreen(),
+        PlanetDetelisScreen.name: (context) => PlanetDetelisScreen(),
       },
     );
   }
