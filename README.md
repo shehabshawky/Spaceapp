@@ -1,10 +1,9 @@
 # spaceapp
 
-A new Flutter project.
-
+Space app
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A comprehensive and visually appealing mobile application that enables users to explore the wonders of our solar system. The app should provide in-depth information about each planet, accompanied by stunning visuals and interactive elements.
 
 A few resources to get you started if this is your first Flutter project:
 
