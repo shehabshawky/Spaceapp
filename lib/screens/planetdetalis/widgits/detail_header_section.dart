@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:spaceapp/core/colors/colors.dart';
+import 'package:spaceapp/models/planet.dart';
 
 class DetailHeaderSection extends StatelessWidget {
-  const DetailHeaderSection({super.key});
+  final Planet planet;
+  const DetailHeaderSection({super.key, required this.planet});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +38,9 @@ class DetailHeaderSection extends StatelessWidget {
                 crossAxisAlignment: .center,
                 children: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
                     icon: Icon(Icons.arrow_back),
                     color: Colors.white,
                     style: ButtonStyle(
@@ -50,7 +54,7 @@ class DetailHeaderSection extends StatelessWidget {
                     child: Padding(
                       padding: .only(right: 35),
                       child: Text(
-                        "Earth",
+                        planet.name,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -68,7 +72,7 @@ class DetailHeaderSection extends StatelessWidget {
                 child: Padding(
                   padding: .only(left: 10),
                   child: Text(
-                    "Earth: Our Blue Marble",
+                    planet.title,
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 24,

@@ -28,7 +28,12 @@ class _PlanetScreenState extends State<PlanetScreen> {
       bottomNavigationBar: BottomNavBar(
         text: "Explore ${planet.name}",
         nav: () {
-          Navigator.pushNamed(context, PlanetDetelisScreen.name);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => PlanetDetelisScreen(planet: planet),
+            ),
+          );
         },
       ),
       body: Column(

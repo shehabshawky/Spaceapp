@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.name: (context) => HomeScreen(),
         PlanetScreen.name: (context) => PlanetScreen(),
-        PlanetDetelisScreen.name: (context) => PlanetDetelisScreen(),
+        
       },
     );
   }

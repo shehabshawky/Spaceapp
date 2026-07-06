@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:spaceapp/models/planet.dart';
 
 class DetelisSection extends StatelessWidget {
-  const DetelisSection({super.key});
+  final Planet planet;
+  const DetelisSection({super.key , required this.planet});
 
   @override
   Widget build(BuildContext context) {
@@ -20,12 +22,12 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Earth is the only known planet in the universe that supports life. Its unique combination of factors, including liquid water, a breathable atmosphere, and a suitable distance from the Sun, has created the ideal conditions for the development of complex organisms. Earth's magnetic field protects it from harmful solar radiation, and its atmosphere helps to regulate temperature and weather patterns.",
+            planet.desc,
             style: TextStyle(color: Colors.white, fontSize: 16),
           ),
           SizedBox(height: 15),
           Text(
-            "Distance from Sun (km) : 149598026",
+            "Distance from Sun (km) : ${planet.distance_from_Sun}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -34,7 +36,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Length of Day (hours) : 23.93",
+            "Length of Day (hours) : ${planet.length_of_day}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -43,7 +45,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Orbital Period (Earth years) : 1",
+            "Orbital Period (Earth years) : ${planet.orbital_period}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -52,7 +54,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Radius (km) : 6371",
+            "Radius (km) : ${planet.radius}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -61,7 +63,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Mass (kg) : 5.972 X 10²⁴",
+            "Mass (kg) : ${planet.mass}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -70,7 +72,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Gravity (m/s²) : 9.81",
+            "Gravity (m/s²) : ${planet.gravity}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -79,7 +81,7 @@ class DetelisSection extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            "Surface Area (km²) : 5.10 x 10⁸",
+            "Surface Area (km²) : ${planet.surface_area}",
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
